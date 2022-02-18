@@ -1,0 +1,236 @@
+ .rows {
+     margin-top: 5%;
+     margin-bottom: 5%;
+     margin-left: 15%;
+     margin-right: 15%;
+     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+ }
+
+ @media only screen and (max-width: 600px) {
+     rows {
+         margin-top: 8%;
+         margin-bottom: 5%;
+         margin-left: 15%;
+         margin-right: 15%;
+         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+     }
+ }
+
+
+ .abc {
+     background-color: white;
+     padding: 6%;
+     margin: auto
+ }
+
+ .xyz {
+     background-size: cover;
+ }
+
+ ul.fxt-socials {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin-right: -5px;
+     margin-left: -5px;
+     margin-bottom: 10px;
+     margin-top: 20px;
+     list-style: none;
+     padding: 0;
+ }
+
+ ul.fxt-socials li {
+     max-width: 100%;
+     flex: 0 0 33.33333%;
+     padding-left: 5px;
+     padding-right: 5px;
+     margin-bottom: 10px;
+ }
+
+ ul.fxt-socials li a {
+     border-radius: 2px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     font-size: 14px;
+     height: 40px;
+     color: #ffffff;
+     transition: all 0.3s ease-in-out;
+ }
+
+ ul.fxt-socials li a i {
+     border-radius: 2px 0 0 2px;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 45px;
+     height: 40px;
+ }
+
+ ul.fxt-socials li a span {
+     height: 100%;
+     width: 100%;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex: 1;
+ }
+
+ @media only screen and (max-width: 575px) {
+     ul.fxt-socials li {
+         -webkit-box-flex: 0;
+         -ms-flex: 0 0 50%;
+         flex: 0 0 50%;
+     }
+ }
+
+ @media only screen and (max-width: 350px) {
+     ul.fxt-socials li {
+         -webkit-box-flex: 0;
+         -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+     }
+ }
+
+ ul.fxt-socials li.fxt-facebook a {
+     background-color: #3b5998;
+ }
+
+ ul.fxt-socials li.fxt-facebook a i {
+     background-color: #4867aa;
+ }
+
+ ul.fxt-socials li.fxt-facebook a:hover {
+     background-color: #5676bb;
+     text-decoration: none;
+ }
+
+ ul.fxt-socials li.fxt-twitter a {
+     background-color: #00acee;
+ }
+
+ ul.fxt-socials li.fxt-twitter a i {
+     background-color: #33ccff;
+ }
+
+ ul.fxt-socials li.fxt-twitter a:hover {
+     background-color: #3dc5f3;
+     text-decoration: none;
+ }
+
+ ul.fxt-socials li.fxt-google a {
+     background-color: #CC3333;
+ }
+
+ ul.fxt-socials li.fxt-google a i {
+     background-color: #db4437;
+ }
+
+ ul.fxt-socials li.fxt-google a:hover {
+     background-color: #e75042;
+     text-decoration: none;
+ }
+
+ .fxt-style-line {
+     overflow: hidden;
+     text-align: center;
+ }
+
+ .fxt-style-line h2 {
+     text-align: center;
+     font-weight: 300;
+     margin-bottom: 10px;
+     font-size: 20px;
+     color: #a4a4a4;
+     display: inline-block;
+     position: relative;
+     padding: 0 25px;
+     z-index: 1;
+ }
+
+ .fxt-style-line h2:before {
+     display: inline-block;
+     content: "";
+     height: 1px;
+     width: 100%;
+     background-color: #ebebeb;
+     left: 100%;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+     position: absolute;
+     z-index: 1;
+ }
+
+ .fxt-style-line h2:after {
+     display: inline-block;
+     content: "";
+     height: 1px;
+     width: 100%;
+     background-color: #ebebeb;
+     right: 100%;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+     position: absolute;
+     z-index: 1;
+ }
+
+.form-control {
+     border: 2px solid #ebebeb;
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     border-radius: 0;
+     margin: 0;
+ }
+
+.form-control:focus{
+     box-shadow: none;
+     border-bottom: 2px solid black;
+     transition: all 0.5s ease-in-out;
+ } 
+
+form .btn{
+    margin-top: 3%;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    letter-spacing: 5px;
+}
+
+form .btn:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+
+.d-flex .form-check label{
+    font-size: 15px;
+    color: #a4a4a4;
+}
+
+.d-flex .ml-auto a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.reg{
+    margin-top: 7%;
+}
+
+.reg p{
+    font-size: 15px;
+    color: #a4a4a4;
+    
+}
+.reg p a{
+    text-decoration: none;
+}
